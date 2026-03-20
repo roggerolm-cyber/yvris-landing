@@ -14,9 +14,9 @@ export const NavBar = () => {
         Yvris.
       </div>
       <nav className="hidden md:flex gap-8 text-sm uppercase tracking-widest font-sans pointer-events-auto">
-        <a href="#" className="hover:text-accent transition-colors duration-300">Approach</a>
-        <a href="#" className="hover:text-accent transition-colors duration-300">Ecosystem</a>
-        <a href="#" className="hover:text-accent transition-colors duration-300">Contact</a>
+        <a href="#approach" className="hover:text-accent transition-colors duration-300">Approach</a>
+        <a href="#ecosystem" className="hover:text-accent transition-colors duration-300">Ecosystem</a>
+        <a href="mailto:info@yvrisl.com" className="hover:text-accent transition-colors duration-300">Contact</a>
       </nav>
       <div className="md:hidden pointer-events-auto">
         <button className="text-sm uppercase tracking-widest">Menu</button>

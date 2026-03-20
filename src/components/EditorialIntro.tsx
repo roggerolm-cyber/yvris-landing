@@ -4,7 +4,7 @@ import { FadeIn } from "./FadeIn";
 
 export const EditorialIntro = () => {
   return (
-    <section className="py-32 px-8 md:px-16 md:py-48 bg-stone-50 text-stone-900 flex justify-center">
+    <section id="approach" className="py-32 px-8 md:px-16 md:py-48 bg-stone-50 text-stone-900 flex justify-center scroll-mt-24">
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-12 gap-16 md:gap-8">
 
         {/* Left Column: Abstract SaaS Architecture Graphic */}

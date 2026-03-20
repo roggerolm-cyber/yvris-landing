@@ -15,7 +15,7 @@ import {
 
 export const StillLifeIntegrations = () => {
   return (
-    <section className="relative w-full bg-stone-100 overflow-hidden border-y border-stone-200 py-32 md:py-48 px-8 md:px-16">
+    <section id="ecosystem" className="relative w-full bg-stone-100 overflow-hidden border-y border-stone-200 py-32 md:py-48 px-8 md:px-16 scroll-mt-24">
       <div className="max-w-7xl mx-auto">
 
         {/* Editorial Header */}

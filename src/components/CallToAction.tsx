@@ -30,18 +30,12 @@ export const CallToAction = () => {
         </p>
 
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
-          <button className="bg-stone-900 text-white px-10 py-4 font-sans text-sm tracking-widest uppercase hover:bg-accent transition-colors duration-300 w-full md:w-auto">
-            Start Free
-          </button>
-          <a href="#" className="font-sans text-sm tracking-widest uppercase text-stone-500 hover:text-stone-900 transition-colors duration-300 border-b border-stone-300 hover:border-stone-900 pb-1">
-            Read the Docs
+          <a href="mailto:info@yvrisl.com" className="bg-stone-900 text-white px-10 py-4 font-sans text-sm tracking-widest uppercase hover:bg-accent transition-colors duration-300 w-full md:w-auto text-center">
+            Get in Touch
           </a>
-        </div>
-
-        <div className="mt-12">
-          <span className="font-mono text-xs text-stone-400 bg-stone-200/80 px-4 py-2 rounded-sm select-all">
-            npm install @yvris/sdk
-          </span>
+          <a href="mailto:info@yvrisl.com" className="font-sans text-sm tracking-widest uppercase text-stone-500 hover:text-stone-900 transition-colors duration-300 border-b border-stone-300 hover:border-stone-900 pb-1">
+            info@yvrisl.com
+          </a>
         </div>
       </motion.div>
 
@@ -52,7 +46,7 @@ export const CallToAction = () => {
         </div>
         <div className="font-sans text-[10px] uppercase tracking-widest text-stone-400 text-right leading-relaxed">
           <p>© {new Date().getFullYear()} YVRIS</p>
-          <p>SaaS Infrastructure Platform</p>
+          <a href="mailto:info@yvrisl.com" className="hover:text-stone-200 transition-colors duration-300">info@yvrisl.com</a>
         </div>
       </div>
     </section>
