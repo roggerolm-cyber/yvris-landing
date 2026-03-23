@@ -26,7 +26,7 @@ export const CallToAction = () => {
           <span className="italic">composed.</span>
         </h2>
         <p className="font-sans text-lg md:text-xl font-light text-stone-500 mb-16 max-w-xl mx-auto leading-relaxed">
-          Join the teams who have replaced infrastructure chaos with orchestrated clarity. Free tier available — no credit card required.
+          Replace infrastructure chaos with orchestrated clarity. Free tier available — no credit card required.
         </p>
 
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center">

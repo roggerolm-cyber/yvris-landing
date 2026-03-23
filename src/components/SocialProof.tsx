@@ -4,9 +4,9 @@ import { FadeIn } from "./FadeIn";
 import { motion } from "framer-motion";
 
 const metrics = [
-  { value: "99.98%", label: "Platform Uptime", note: "Last 365 days" },
+  { value: "99.98%", label: "Uptime SLA", note: "Guaranteed availability" },
   { value: "12ms", label: "Median Latency", note: "Global edge network" },
-  { value: "14K+", label: "Events / Second", note: "Peak throughput" },
+  { value: "14K+", label: "Events / Second", note: "Peak throughput capacity" },
   { value: "34", label: "Edge Regions", note: "Worldwide deployment" },
 ];
 
@@ -31,7 +31,7 @@ export const SocialProof = () => {
           <div className="col-span-1 md:col-span-4 md:col-start-9 flex items-end">
             <FadeIn delay={0.15}>
               <p className="font-sans text-base font-light leading-relaxed text-stone-400">
-                Teams building the next generation of tech platforms trust YVRIS to be the invisible backbone of their operations.
+                Built for teams creating the next generation of tech platforms. The invisible backbone your operations deserve.
               </p>
             </FadeIn>
           </div>
@@ -67,24 +67,24 @@ export const SocialProof = () => {
         <div className="mt-24 md:mt-32 border-t border-stone-700/50 pt-12">
           <FadeIn>
             <p className="font-sans text-xs uppercase tracking-[0.2em] text-stone-600 mb-12 text-center">
-              Trusted by teams building at scale
+              Designed for teams at every scale
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>
             <div className="flex flex-wrap justify-center items-center gap-x-16 gap-y-8">
               {[
-                "Meridian Labs",
-                "Arcform",
-                "Noctis Systems",
-                "Vektor",
-                "Strata AI",
-                "Luminary",
-              ].map((company, i) => (
+                "Startups",
+                "Scale-ups",
+                "Enterprise",
+                "Dev Teams",
+                "Platform Eng.",
+                "Infra Ops",
+              ].map((audience, i) => (
                 <span
                   key={i}
                   className="font-serif text-xl md:text-2xl italic text-stone-600 hover:text-stone-300 transition-colors duration-500 cursor-default"
                 >
-                  {company}
+                  {audience}
                 </span>
               ))}
             </div>
