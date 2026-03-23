@@ -14,7 +14,25 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "YVRIS | Technical Sophistication & Refined Design",
-  description: "A SaaS platform that sits at the intersection of technical sophistication and refined design sensibility. An extraordinary, unhurried tool built by people with taste.",
+  description:
+    "A SaaS platform that sits at the intersection of technical sophistication and refined design sensibility. An extraordinary, unhurried tool built by people with taste.",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/icon.svg",
+  },
+  openGraph: {
+    title: "YVRIS | Technical Sophistication & Refined Design",
+    description:
+      "The orchestration layer for modern tech platforms. Connect, compose, and deploy your entire infrastructure from a single, considered surface.",
+    siteName: "YVRIS",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "YVRIS | Technical Sophistication & Refined Design",
+    description:
+      "The orchestration layer for modern tech platforms. Connect, compose, and deploy your entire infrastructure from a single, considered surface.",
+  },
 };
 
 export default function RootLayout({
